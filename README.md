@@ -144,7 +144,7 @@ Check out my interactive Tableau dashboard below:
             <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Re/Retail_superstore_analysis_profits/Dashboard1/1_rss.png' style='border: none' />
         </a>
     </noscript>
-    <object class='tableauViz' style='display:none;'>
+    <object class='tableauViz' style='display:block; width:100%; height:800px;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
         <param name='embed_code_version' value='3' />
         <param name='site_root' value='' />
@@ -160,25 +160,9 @@ Check out my interactive Tableau dashboard below:
         <param name='language' value='en-GB' />
     </object>
 </div>
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1686644252384');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    if (divElement.offsetWidth > 800) {
-        vizElement.style.width = '1500px';
-        vizElement.style.height = '627px';
-    } else if (divElement.offsetWidth > 500) {
-        vizElement.style.width = '1500px';
-        vizElement.style.height = '627px';
-    } else {
-        vizElement.style.width = '100%';
-        vizElement.style.height = '2277px';
-    }
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+<script src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
 
-
+    
 ## Future Enhancements
 
 While the current analysis provides valuable insights into the retail dataset, there are several areas where the project can be further improved and expanded in the future. Here are some potential enhancements to consider:
