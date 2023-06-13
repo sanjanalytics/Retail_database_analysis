@@ -160,7 +160,7 @@ Check out my interactive Tableau dashboard below:
         <param name='language' value='en-GB' />
     </object>
 </div>
-<script src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+<script src='https://public.tableau.com/app/profile/sanjeevani.subba/viz/Retail_superstore_analysis_profits/Dashboard1'></script>
 
     
 ## Future Enhancements
